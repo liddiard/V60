@@ -1,0 +1,60 @@
+{
+  "gramsPerLiter": 60,
+  "litersPerCup": 0.25,
+  "steps": [
+    {
+      "label": "Grind {grams}g of coffee"
+    },
+    {
+      "label": "Heat at least {ml}ml of water",
+      "explanation": "Use good filtered water; it will affect the quality of the brew"
+    },
+    {
+      "label": "Rinse paper filter with hot water",
+      "explanation": "This removes any paper taste and preheats the brewer"
+    },
+    {
+      "label": "Add coffee grounds to the V60"
+    },
+    {
+      "label": "Create a well in the middle of the grounds",
+      "explanation": "This helps to evenly saturate all the grounds during the blooming phase"
+    },
+    {
+      "label": "Pour {grams}g of water over the grounds, evenly saturating them",
+      "explanation": "Set your V60 on top of a scale and press TARE to zero out the display.",
+      "gramsRatioCumulative": 0.12
+    },
+    {
+      "label": "Swirl the coffee slurry until evenly mixed",
+      "explanation": "The aim is to wet all the coffee grounds by evenly mixing bloom water and coffee"
+    },
+    {
+      "label": "Wait {seconds} for coffee to bloom",
+      "timer": 45,
+      "autoStartTimer": true
+    },
+    {
+      "label": "Get ready to pour up to {grams}g of cumulative weight in {seconds} seconds",
+      "gramsRatioCumulative": 0.6,
+      "timer": 30,
+      "autoStartTimer": false
+    },
+    {
+      "label": "Continue pouring up to the total brew weight of {grams}g in {seconds} seconds",
+      "explanation": "It’s OK to pause occasionally while pouring",
+      "gramsRatioCumulative": 1,
+      "timer": 30,
+      "autoStartTimer": true
+    },
+    {
+      "label": "Using a spoon, gently stir once clockwise and once counter-clockwise"
+    },
+    {
+      "label": "Once cone has drained slightly, give it a final swirl"
+    },
+    {
+      "label": "Wait as needed for the drawdown to finish, then enjoy!"
+    }
+  ]
+}
